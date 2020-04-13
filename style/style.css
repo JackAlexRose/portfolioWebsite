@@ -45,6 +45,11 @@ html body a:hover, a:active {
     font-size: 2vw;
 }
 
+#mycanvas {
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 768px) {
     html body{
         padding-top: 70px;
