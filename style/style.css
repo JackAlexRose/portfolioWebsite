@@ -46,6 +46,10 @@ html body a:hover, a:active {
 }
 
 @media only screen and (max-width: 768px) {
+    html body{
+        padding-top: 70px;
+    }
+
     html body p {
         font-size: 4vw;
     }
@@ -56,6 +60,20 @@ html body a:hover, a:active {
     
     html body a:hover, a:active {
         font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    html body p {
+        font-size: 3vw;
+    }
+
+    html body a:link, a:visited {
+        font-size: 3vw;
+    }
+    
+    html body a:hover, a:active {
+        font-size: 3vw;
     }
 }
 
