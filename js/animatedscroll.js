@@ -4,7 +4,7 @@ $(function() {
       if (target.length) {
         $("html, body").animate(
           {
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top - $("#nav").height() - 20
           },
           1000
         );
