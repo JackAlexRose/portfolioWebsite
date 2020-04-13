@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "fogtwoNo5";
+    src: url('fonts/FogtwoNo5.ttf');
+}
+
+html body h1 {
+    font-size: 13vw;
+    color: white;
+    font-family: 'fogtwoNo5';
+}
+
+html body h2 {
+    font-size: 10vw;
+    color: white;
+    font-family: 'fogtwoNo5';
+}
+
+html body{
+    background-color: black;
+}
+
+html body h3 {
+    font-size: 3vw;
+    color: white;
+    font-family: 'fogtwoNo5';
+}
+
+html body p {
+    color: white;
+    font-family: 'fogtwoNo5';
+    font-size: 2vw;
+    background-color: black;
+}
+
+html body a:link, a:visited {
+    color: #ffdf40;
+    font-family: 'fogtwoNo5';
+    font-size: 2vw;
+}
+
+html body a:hover, a:active {
+    color: #fff8d4;
+    font-family: 'fogtwoNo5';
+    font-size: 2vw;
+}
+
+@media only screen and (max-width: 768px) {
+    html body p {
+        font-size: 4vw;
+    }
+
+    html body a:link, a:visited {
+        font-size: 4vw;
+    }
+    
+    html body a:hover, a:active {
+        font-size: 4vw;
+    }
+}
+
+html body hr {
+    border: 0.1vw solid white;
+}
+
+html body p mark {
+    color: black;
+    background-color: #ffdf40;
+}
+
+.highlightme {
+    background-color: #ffdf40;
+}
+
+#signature {
+    min-width: 20%;
+    min-height: 20%;
+}
