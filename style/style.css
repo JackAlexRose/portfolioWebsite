@@ -26,6 +26,13 @@ html body h3 {
     font-family: 'fogtwoNo5';
 }
 
+html body h4 {
+    font-size: 2vw;
+    color: white;
+    font-family: 'fogtwoNo5';
+}
+
+
 html body p {
     color: white;
     font-family: 'fogtwoNo5';
