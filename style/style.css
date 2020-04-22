@@ -112,3 +112,15 @@ html body p mark {
 .nav-link {
     font-size: 1vw;
 }
+
+#c {
+    z-index: -1;
+}
+
+#muted {
+    background: none;
+}
+
+#instructions {
+    background: none;
+}
